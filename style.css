@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.portfolio-main > button {
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-projects > img {
+    display: block;
+}
