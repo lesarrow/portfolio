@@ -6,9 +6,41 @@ body {
     text-align: center;
 }
 
+.body-portfolio * {
+    border: 1px solid black;
+    margin: 0;
+    padding: 20px 0;
+}
+
+body > a {
+    display: block;
+}
+
 .portfolio-main > button {
     display: block;
     margin: 0 auto;
+}
+
+
+.img-heading {
+    display: block;
+    background-color: rgb(225, 225, 225);
+}
+
+.headline {  
+    background-color: rgb(200, 200, 200);
+}
+
+.bio {  
+    background-color: rgb(175, 175, 175);
+}
+
+.link-projects {
+    background-color: rgb(150, 150, 150);
+}
+
+.link-contact {
+    background-color: rgb(125, 125, 125);
 }
 
 .portfolio-projects > img {
