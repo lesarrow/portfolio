@@ -2,8 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgba(235, 235, 235, 0.8);
+}
+
 body {
     text-align: center;
+    padding-top: 15px;
+    font-family: 'Spectral', serif;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+
 }
 
 .portfolio-main > button {
@@ -13,4 +30,152 @@ body {
 
 .portfolio-projects > img {
     display: block;
+}
+
+.head-img {
+    width: 300px;
+}
+
+main, footer {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+
+.headline {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.bio, .bio-header {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.bio-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-header {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    line-height: 24px;
+    margin: 0 auto;
+    display: block;
+}
+
+.contact-labels, .contact-values {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.contact-labels {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.contact-values {
+    text-align: left;
+}
+
+.button-projects {
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+nav, .project {
+    width: 450px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 525px;
+}
+
+.project-screenshot, .project-description {
+    width: 100%;
+}
+
+.projects-heading {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.nav-projects {
+    text-align: left;
+}   
+
+.button-home {
+    font-size: 14px;
+}
+
+.project > p {
+   text-align: left;
+}
+
+.btn-container-project {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-project {
+    font-size: 14px;
+    color: rgb(125, 125, 125);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 730px) {
+
+    .head-img {
+        width: 450px;
+    }
+
+    .project {
+        width: 675px;
+    }
+
+    nav {
+        width: 750px;
+    }
+
+}
+
+
+@media screen and (min-width: 925px) {
+
+    body {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1470px) {
+ 
+    .headline {
+        text-align: center;
+    }
 }

@@ -3,15 +3,55 @@
     <head>
         <title>Les Arrow&rsquo;s Portfolio</title>
         <meta name="decription" content="A portfolio of work by Les Arrow from his time at Bloc">
+        <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="./style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
         <script src="index.js"></script>
     </head>
-    <body>
-        <img alt="Picture of Les Arrow">
-        <p>Headline goes here</p>
-        <p>Bio goes here</p>
-        <button>View Projects</button>
-        <button>Contact Me</button>
+    <body class="portfolio-main">
+        <img class="head-img" src="lesarrow.jpg" alt="Les Arrow working">
+        <heading role="heading">
+            <p class="headline">I&rsquo;m Les Arrow and welcome to my page. I am an experienced Software Engineer whose latest
+                endeavor is full stack web development.</p>
+        </heading>
+        <main role="main">
+            <heading role="heading">
+                <p class="bio-header">About me:</p>
+            </heading>
+            <section>
+                <p class="bio">I enjoy all aspects of computer technology and have had the opportunity to work in many different
+                    capacities within the field. I have working experience in Quality Assurance (QA), Software Development, 
+                    Information Technology (IT), Technical Publications, and as a Teacher. I have worked as an individual
+                    contributor, a manager, and a department director. In addition, I hold a Bachelors of Science in Computer
+                    Science and Engineering from University of California, Los Angeles.</p>
+                <p class="bio">Regardless of what role I am in, my favorite part of product development is the satisfaction from
+                    working with a team of talented individuals in the creation and delivery of content into which we have all poured our hearts.</p>
+                <p class="bio">When I&rsquo;m not solving the computer challenge of the day, you can find me doing something
+                    related to the game of baseball (playing, watching, fantasy, or building cool fantasy baseball tools - whoops,
+                    that&rsquo;s computing again!).
+                </p>
+            </section>
+            <button class="button-projects">View My Projects</button>
+        </main>
+        <footer>
+            <heading role="heading">
+                <p class="contact-header">Contact Information</p>
+            </heading>
+            <section class="contact-info">
+                <ul class="contact-labels">
+                    <li>Email:</li>
+                    <li>Github:</li>
+                    <li>LinkedIn:</li>
+                </ul>
+                <ul class="contact-values">
+                    <li><a href="mailto:les@larrowtech.com">les@larrowtech.com</a</li>
+                    <li><a href="https://github.com/lesarrow">github.com/lesarrow</a</li>
+                    <li><a href="https://www.linkedin.com/in/lesarrow/">My profile</a></li>
+                </ul>
+            </section>
+        </footer>
     </body>
 </html>
