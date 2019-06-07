@@ -93,21 +93,33 @@ body > a {
     .headline {
         display: inline-block;
         width: initial;
+        height: 30%;
+        margin-left: 10px;
+
     }
 
     .headline-container {
         text-align: left;
         width: 90%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
     }
 
     .headline-img-container {
-        width: 45%;
         display: inline-block;
         border: none;
-        text-align: center;
     }
 
     .link-projects, .link-contact {
         display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    body {
+        width: 80%;
+        margin: 0 auto;
     }
 }
