@@ -8,12 +8,13 @@ body {
 
 .body-portfolio * {
     border: 1px solid black;
-    margin: 0;
     padding: 20px 0;
 }
 
 body > a {
     display: block;
+    width: 20%;
+    margin: 0 auto 10px;
 }
 
 .portfolio-main > button {
@@ -24,15 +25,34 @@ body > a {
 
 .img-heading {
     display: block;
+    width: 300px;
+    height: 200px;
     background-color: rgb(225, 225, 225);
+    margin: 0 auto 10px;
+}
+
+.headline-container {
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.headline-img-container {
+    border: none;
+    padding-bottom: 0;
 }
 
 .headline {  
     background-color: rgb(200, 200, 200);
+    width: 90%;
+    margin: 0 auto 10px;
 }
 
 .bio {  
     background-color: rgb(175, 175, 175);
+    width: 90%;
+    margin: 0 auto 10px;
 }
 
 .link-projects {
@@ -43,6 +63,51 @@ body > a {
     background-color: rgb(125, 125, 125);
 }
 
-.portfolio-projects > img {
+.project-screenshot {
+    width: 80%;
+    height: 85%;
     display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+
+.project {
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto 15px;
+    background-color: rgb(175, 175, 175);
+}
+
+@media screen and (min-width: 750px) {
+ 
+    .project {
+        display: inline-block;
+        width: 45%;
+    }
+
+    .img-heading {
+        display: inline-block;
+    }
+
+    .headline {
+        display: inline-block;
+        width: initial;
+    }
+
+    .headline-container {
+        text-align: left;
+        width: 90%;
+    }
+
+    .headline-img-container {
+        width: 45%;
+        display: inline-block;
+        border: none;
+        text-align: center;
+    }
+
+    .link-projects, .link-contact {
+        display: inline-block;
+    }
 }
