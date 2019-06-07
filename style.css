@@ -2,19 +2,25 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgba(235, 235, 235, 0.8);
+}
+
 body {
     text-align: center;
+    padding-top: 15px;
+    font-family: 'Spectral', serif;
+    margin: 0 auto;
+    width: 90%;
 }
 
-.body-portfolio * {
-    border: 1px solid black;
-    padding: 20px 0;
+h1 {
+    font-size: 36px;
 }
 
-body > a {
-    display: block;
-    width: 20%;
-    margin: 0 auto 10px;
+h2 {
+    font-size: 24px;
+
 }
 
 .portfolio-main > button {
@@ -22,104 +28,154 @@ body > a {
     margin: 0 auto;
 }
 
-
-.img-heading {
+.portfolio-projects > img {
     display: block;
+}
+
+.head-img {
     width: 300px;
-    height: 200px;
-    background-color: rgb(225, 225, 225);
-    margin: 0 auto 10px;
 }
 
-.headline-container {
-    border: none;
-    width: 90%;
+main, footer {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer {
+    font-size: 15px;
+}
+
+.headline {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.bio, .bio-header {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.bio-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-header {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    line-height: 24px;
     margin: 0 auto;
-    padding-bottom: 0;
-}
-
-.headline-img-container {
-    border: none;
-    padding-bottom: 0;
-}
-
-.headline {  
-    background-color: rgb(200, 200, 200);
-    width: 90%;
-    margin: 0 auto 10px;
-}
-
-.bio {  
-    background-color: rgb(175, 175, 175);
-    width: 90%;
-    margin: 0 auto 10px;
-}
-
-.link-projects {
-    background-color: rgb(150, 150, 150);
-}
-
-.link-contact {
-    background-color: rgb(125, 125, 125);
-}
-
-.project-screenshot {
-    width: 80%;
-    height: 85%;
     display: block;
-    margin: 10px auto;
-    border: 1px solid black;
 }
 
-.project {
-    border: 1px solid black;
-    height: 400px;
-    width: 90%;
-    margin: 0 auto 15px;
-    background-color: rgb(175, 175, 175);
+.contact-labels, .contact-values {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
 }
 
-@media screen and (min-width: 750px) {
- 
+.contact-labels {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.contact-values {
+    text-align: left;
+}
+
+.button-projects {
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+nav, .project {
+    width: 450px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 525px;
+}
+
+.project-screenshot, .project-description {
+    width: 100%;
+}
+
+.projects-heading {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.project-description {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.nav-projects {
+    text-align: left;
+}   
+
+.button-home {
+    font-size: 14px;
+}
+
+.project > p {
+   text-align: left;
+}
+
+.btn-container-project {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-project {
+    font-size: 14px;
+    color: rgb(125, 125, 125);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 730px) {
+
+    .head-img {
+        width: 450px;
+    }
+
     .project {
-        display: inline-block;
-        width: 45%;
+        width: 675px;
     }
 
-    .img-heading {
-        display: inline-block;
+    nav {
+        width: 750px;
     }
 
-    .headline {
-        display: inline-block;
-        width: initial;
-        height: 30%;
-        margin-left: 10px;
-
-    }
-
-    .headline-container {
-        text-align: left;
-        width: 90%;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-    }
-
-    .headline-img-container {
-        display: inline-block;
-        border: none;
-    }
-
-    .link-projects, .link-contact {
-        display: inline-block;
-    }
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (min-width: 925px) {
 
     body {
         width: 80%;
-        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width: 1470px) {
+ 
+    .headline {
+        text-align: center;
     }
 }
