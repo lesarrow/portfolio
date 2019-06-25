@@ -19,10 +19,23 @@ function handleQuizApp() {
 }
 
 
+function handleMLBWagerApp() {
+
+    $('.mlbwagerapp-try').click(e => {
+        window.open("https://lesarrow.github.io/mlbwager/");
+    });
+
+    $('.mlbwagerapp-repo').click(e => {
+        window.open("https://github.com/lesarrow/mlbwager");
+    });
+}
+
+
 function handleProjects() {
 
     handleHomeButton();
     handleQuizApp();
+    handleMLBWagerApp();
 }
 
 

@@ -122,8 +122,11 @@ nav {
 }
 
 .projects-heading {
-    margin-bottom: 30px;
-    margin-top: 15px;
+    margin: 15px 0 0 0;
+}
+
+.project {
+    margin-top: 45px;
 }
 
 .project-description {
